@@ -23,17 +23,6 @@ import {
   jobit,
   tripguide,
   threejs,
-  mobifone,
-  dft,
-  navisoft,
-  vccorp,
-  okvip,
-  okchoi,
-  supercore,
-  fpsunity,
-  csharp,
-  php,
-  laravel
 } from "../assets";
 
 export const navLinks = [
@@ -57,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "ReactJs Developer",
+    title: "React Native Developer",
     icon: mobile,
   },
   {
@@ -65,31 +54,23 @@ const services = [
     icon: backend,
   },
   {
-    title: "Model Designer",
+    title: "Content Creator",
     icon: creator,
   },
 ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "C#",
-    icon: csharp,
-  },
-  {
-    name: "Php",
-    icon: php,
   },
   {
     name: "TypeScript",
@@ -108,29 +89,25 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Laravel",
-    icon: laravel,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
   {
     name: "Three JS",
     icon: threejs,
   },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
   {
     name: "docker",
     icon: docker,
@@ -139,68 +116,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "Haedap JSC/Mobifone",
-    icon: mobifone,
+    title: "React.js Developer",
+    company_name: "Starbucks",
+    icon: starbucks,
     iconBg: "#383E56",
-    date: "April 2021 - April 2022",
+    date: "March 2020 - April 2021",
     points: [
-      "Develop web application, build app structure by admin panel framework Laravel Admin",
+      "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Fullstack Developer",
-    company_name: "DFT JSC",
-    icon: dft,
+    title: "React Native Developer",
+    company_name: "Tesla",
+    icon: tesla,
     iconBg: "#E6DEDD",
-    date: "May 2021 - December 2022",
+    date: "Jan 2021 - Feb 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing apis service using c# .NET framework",
-      "Maintain mobile apps based on angular 2, modify themes, layouts, build new pages...",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Fullstack Developer",
-    company_name: "NaviSoft",
-    icon: navisoft,
+    title: "Web Developer",
+    company_name: "Shopify",
+    icon: shopify,
     iconBg: "#383E56",
-    date: "May 2022 - Nov 2023",
+    date: "Jan 2022 - Jan 2023",
     points: [
-      "Write code and develop Web application for DEPOSITORY AND SURVEILLANCE BANK SOLUTION",
-      "Providing software services and solutions in securities, banking and financial sectors",
-      "Build and maintain Financial Front Office web app and Back Office app",
-      "Handling customer requests and requirements- Optimize database, code convention.",
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Frontend Developer",
-    company_name: "VCCorp",
-    icon: vccorp,
+    title: "Full stack Developer",
+    company_name: "Meta",
+    icon: meta,
     iconBg: "#E6DEDD",
-    date: "Nov 2023 - Mar 2024",
+    date: "Jan 2023 - Present",
     points: [
-      "Develop IMS, site editor, build app structure, config SEO contents, analyze and optimize codes and flows",
+      "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Build and develop Site Editor.",
-    ],
-  },
-  {
-    title: "Backend Developer",
-    company_name: "Okvip",
-    icon: okvip,
-    iconBg: "#E6DEDD",
-    date: "Nov 2023 - Mar 2024",
-    points: [
-      "Develop and build Authentications, CMS client and web client for sport streaming website",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Develop CMS API, Client Api, Chatting Realtime Handling",
+      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -208,100 +172,92 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "You're the MVP of teamwork—like a glue that holds us together, always there with a helping hand and a smile.",
-    name: "Minh",
-    designation: "Designer",
-    company: "NaviSoft",
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+    name: "Sara Lee",
+    designation: "CFO",
+    company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "You're the lone wolf of productivity—fearless, self-reliant, and blazing your trail through challenges with ease.",
-    name: "Ha",
-    designation: "Tester",
-    company: "Dft",
+      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "You're the after-hours hero of the project—always there, full of energy, and ready to save the day!",
-    name: "Phuong",
-    designation: "BA",
-    company: "Navisoft",
+      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Lisa Wang",
+    designation: "CTO",
+    company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "SSI Supercore",
+    name: "Car Rent",
     description:
-      `A Web application contains BO and FO, BO to manage customer, staffs, securities, stock
-      depository transactions, money exchanges, money transfers, FO to send and get orders
-      messages, place buy and sell orders,...`,
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "c#",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "antdesign",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "oracle",
+        name: "mongodb",
         color: "green-text-gradient",
       },
-    ],
-    image: supercore,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Unity 3d Games",
-    description:
-      `A Web app allows users to manage their favorite football teams, leagues, watch live
-      match, chating in match room`,
-    tags: [
       {
-        name: "unity",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "c#",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "modeling",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: fpsunity,
+    image: carrent,
     source_code_link: "https://github.com/",
   },
   {
-    name: "OkChoi - Sport Live",
+    name: "Job IT",
     description:
-      `A Web app allows users to manage their favorite football teams, leagues, watch live
-      match, chating in match room`,
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "reactjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "c#",
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
         color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: okchoi,
+    image: tripguide,
     source_code_link: "https://github.com/",
   },
 ];

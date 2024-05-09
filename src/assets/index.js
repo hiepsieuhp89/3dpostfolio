@@ -7,10 +7,6 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import php from "./tech/php.png";
-import laravel from "./tech/laravel.png";
-import csharp from "./tech/csharp.png";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -25,35 +21,16 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import okvip from "./company/okvip.png";
-import vccorp from "./company/vccorp.png";
-import navisoft from "./company/navisoft.png";
-import dft from "./company/dft.png";
-import mobifone from "./company/mobifone.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import fpsunity from "./fpsunity.png";
-import supercore from "./supercore.png";
-import okchoi from "./okchoi.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-  php,
-  laravel,
-  csharp,
-  fpsunity,
-  supercore,
-  okchoi,
-  okvip,
-  vccorp,
-  navisoft,
-  dft,
-  mobifone,
   logo,
   backend,
   creator,
